@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Azeret Mono", monospace;
+}
+section {
+  padding: 50px 0;
+}
+.container {
+  width: 90%;
+  padding: 80px 0px;
+  margin: 0 auto;
+}
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#heroSection {
+  background-size: cover;
+  background-image: url("./assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button#headerBtn {
+  padding: 10px 14px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  background: white;
+  cursor: pointer;
+}
+button#headerBtn:hover {
+    background: black;
+    color: white;
+}
+.heroWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  width: 90%;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+
+.heroWrapper h1 {
+  font-size: 31px;
+  font-weight: bolder;
+}
+
+.heroWrapper p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  width: 70%;
+  line-height: 19px;
+  margin-top: 7px;
+}
+.heroWrapper button {
+  padding: 10px 14px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+#WebDev {
+  background-color: #0d13210a;
+  border-radius: 15px;
+  padding: 40px;
+}
+.Title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 19px;
+}
+.Title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 33px;
+}
+.webDevContent {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.webDevCon1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #ffffff00);
+  border-radius: 15px;
+}
+.webDevCon2 {
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 15px;
+}
+.webDevCon3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-radius: 15px;
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #ffffff00);
+}
+.webDevInfo {
+  flex-basis: 40%;
+}
+
+.webDevInfo h3 {
+  color: #0d1321ad;
+}
+
+.webDevInfo p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 15px 0px;
+  color: rgb(122, 121, 121);
+}
+.webDevInfo button {
+  padding: 10px 14px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  background: transparent;
+  color: rgb(124, 122, 122);
+  cursor: pointer;
+}
+
+/*My inspiration >>>>>>>>>>>>>>>>>>>>*/
+.inspirationVedio {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gainsboro;
+  padding: 18px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.TergetWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.sTarget {
+  flex-direction: column;
+  flex-basis: 25%;
+  display: flex;
+  align-items: flex-start;
+  padding: 29px;
+  gap: 14px;
+  border-radius: 15px;
+}
+.sTarget1 {
+  background-color: #ff4b1e14;
+}
+
+.sTarget2 {
+  background-color: rgb(0, 76, 232, 5%);
+}
+.sTarget3 {
+  background-color: rgba(255, 203, 0, 5%);
+}
+.sTarget h4 {
+  font-size: 22px;
+}
+
+.sTarget p {
+  font-size: 14px;
+  color: #000000b3;
+  line-height: 23px;
+}
+
+.sTarget a {
+  color: black;
+}
+
+/* =============>>>>> */
+/* this section for next target */
+
+.nextTargetWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.nTarget {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.targetInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.targetInfo p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000c7;
+}
+.nTarget {
+  padding: 43px;
+  border: 1px solid #8080802b;
+  border-radius: 10px;
+}
+
+.targetInfo a {
+  color: black;
+}
+
+/* support section style */
+#support {
+  background-image: url("./assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.supprtTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  color: white;
+}
+
+.supprtTitle p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #cfcdcd;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 19px;
+}
+
+
+.supportWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+form {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 7px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #0000009e;
+}
+input[type="text"]::placeholder{
+    color: #c7c3c3;
+}
+
+input[type="submit"] {
+    padding: 13px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+footer.footer {background: #dcdcdc45;}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 15px 0px;
+}
