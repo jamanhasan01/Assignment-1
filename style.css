@@ -79,6 +79,14 @@ button#headerBtn:hover {
   color: white;
   cursor: pointer;
 }
+.heroWrapper button:hover{
+  background-color: white;
+  border: 1px soli gray;
+  
+}
+.heroWrapper button:hover a{
+  color: black;
+}
 button.heroBtn a {
     text-decoration: none;
     color: white;
@@ -157,6 +165,10 @@ button.heroBtn a {
   background: transparent;
   color: rgb(124, 122, 122);
   cursor: pointer;
+}
+.webDevInfo button:hover{
+  background-color: black;
+  color: white;
 }
 
 /*My inspiration >>>>>>>>>>>>>>>>>>>>*/
